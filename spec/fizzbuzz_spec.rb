@@ -13,4 +13,10 @@ describe 'fizzbuzz' do
   it 'returns "8" when passed 8' do
     expect(fizzbuzz(8)).to eq 8
   end
+  it 'return "enter a number" when passed a none interger' do
+    # expect(fizzbuzz("a")).to eq "enter a number"
+    # expect(fizzbuzz("james")).to eq "enter a number"
+    expect(fizzbuzz("hi")).to eq "enter a number"
+    
+  end
 end
